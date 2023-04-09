@@ -12,7 +12,7 @@ length = int(input("Введите длину шоколадки "))
 width = int(input("Введите ширину шоколадки "))
 slice = int(input("Введите количество долек которые нужно отломить от шоколадки "))
 
-if (slice * width - slice) % 2 == 0 and (slice * width) >= slice:
+if (length * width - slice) % 2 == 0 and (length * width) > slice and (length * width - slice) > 1:
     print("Шоколадку можно разломить на два прямоугольника")
 else:
     print("Шоколадку НЕЛЬЗЯ разломить на два прямоугольника")
