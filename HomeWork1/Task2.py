@@ -12,7 +12,9 @@
 
 number = int(input("Введите количество бумаги журавликов "))
 
-kate = number // 2 + number % 2
+#kate = number // 2 + number % 2
 peterSer = (number // 2) // 2
+kate = number - (peterSer * 2)
+
 
 print(f"Петя сделал {peterSer}, Катя сделала {kate} и Сережа сделал {peterSer} бумаги журавликов.")
