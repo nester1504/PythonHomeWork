@@ -20,9 +20,6 @@ for i in range(n):
 
 print(list)
 
-number = list[0]
-number2 = 0
-
 x = int(input("Введите число "))
  
 element = list[0]  
