@@ -9,6 +9,6 @@
 import random
 
 number = random.randint(100, 999)
-sum = number // 100 + (number % 100) // 10 + number % 10
+sum_number = number // 100 + (number % 100) // 10 + number % 10
 
-input(f'Сумму цифр числа {number} =  {sum}')
+input(f'Сумму цифр числа {number} =  {sum_number}')
