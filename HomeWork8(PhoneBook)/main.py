@@ -2,7 +2,7 @@ PHONEBOOK_FILE = 'phonebook.txt'  # Имя файла для сохранени�
 
 
 def load_phonebook():
-    try:
+
         with open(PHONEBOOK_FILE, 'r') as file:
             phonebook = {}
             for line in file:
@@ -13,8 +13,7 @@ def load_phonebook():
                     'comment': comment
                 }
             return phonebook
-    except FileNotFoundError:
-        return {}
+
 
 
 def save_phonebook(phonebook):
